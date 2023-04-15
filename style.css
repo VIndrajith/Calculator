@@ -1,46 +1,40 @@
-.calculator {
-    width: 300px;
-    height: 400px;
-    background-color: #d0d0d0;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: #000000 solid 3px;
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: #ce9494;
 }
-
-
-
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    padding: 10px;
-}
-
-.display {
-    font-size: 35px;
-    height: 80px;
-    width: 300x;
-    background-color: #787d82;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.container{
+    width: 380px;
+    height:400px;
+    background-color: rgb(115, 115, 115);
+    margin: auto;
     padding: 15px;
-    border: #000000 solid 2px;
 }
-
-button {
-    height: 50px;
-    border: circle;
-    background-color: #794141;
-    color: #ffffff;
-    font-size: 20px;
-    cursor: pointer;    
+#screen{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 350px;
+    margin: 5px;
+    font-size: 20pt;
+    text-align: right;
+    
 }
-
-
-.operator {
-    background-color: #794141;
-    color: #ffffff;
+.button{
+    background-color: rgb(222, 91, 91);
+    text-decoration-color: rgb(208, 21, 21);
+    width: 70px;
+    height: 40px;
+    font-size: 20pt;
+    margin: 10px;
+    border-color: black;
+    
+}
+form input.result{
+    background-color: rgb(222, 91, 91);
+    text-decoration-color: rgb(222, 91, 91);
+    width: 164px;
+    height: 40px;
+    font-size: 15pt;
+    margin: 8px;
+    border-color: black;
 }
